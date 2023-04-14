@@ -311,7 +311,7 @@ let verboser=["sou","era","fui",
 							"serdes",
 							"serem","será","sendo","sido"];
 									// eu voce ele nós eles
-									
+					
 	let pronomes = ["eu","você","ele","nós","você","eles"];
 
 	let prnmsubs = [["mim", "me", "comigo",  "meu", "minha","meus", "minhas"],
@@ -355,17 +355,34 @@ let verboser=["sou","era","fui",
 		
 		verbos = arrpush(verbos,maisverbos);
 		
+		let verboter = ["tenho", "tens", "tem", "temos", "tendes", "têm",
+									"tenha", "tenhas", "tenha", "tenhamos", "tenhais", "tenham",
+									"tem", "tu", "tenha", "tenhamos", "tende", "tenham",
+									"não", "tenhas", "tenha","tenhamos", "tenhais", "tenham",
+									"tive", "tiveste", "teve", "tivemos", "tivestes", "tiveram",
+									"tivera", "tiveras", "tivera", "tivéramos", "tivéreis", "tiveram",
+									"tiver", "tiveres", "tiver", "tivermos", "tiverdes", "tiverem",
+									"tivesse", "tivesses", "tivesse", "tivéssemos", "tivésseis", "tivessem",
+									"terei", "terás", "terá", "teremos", "tereis", "terão",
+									"teria", "terias", "teria", "teríamos", "teríeis", "teriam",
+									"ter", "teres", "ter", "termos", "terdes", "terem",
+									"tinha", "tinhas", "tinha", "tínhamos", "tínheis", "tinham",
+									"ter", "tendo", "tido"];
+		
+		
 		let labels = ["substativos","substitutos"];
 		let cols   = [[],[]];
 		    cols[0][0]=banidas;
 		    cols[0][1]=verbohaver;
 		    cols[0][2]=verboser;
 		    cols[0][3]=simbolos;
+		    cols[0][4]=verboter;
 		    cols[1][0]=" ";
 		    cols[1][1]="hei";
 		    cols[1][2]="ser";
 		    cols[1][3]=" ";
-		   let n=2;
+		    cols[1][4]="ter";
+		   let n=4;
 		   for(let i=0; i<prnmsubs.length;i++)
 		   {
 		   		n++;
