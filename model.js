@@ -236,7 +236,7 @@ let verboser=["sou","era","fui",
 	let pronomes = ["eu","você","ele","nós","você","eles"];
 
 	let prnmsubs = [["mim", "me", "comigo",  "meu", "minha","meus", "minhas"],
-								  ["te", "ti", "contigo",  "teu", "tua",   "teus", "tuas"],
+								  ["tu","te", "ti", "contigo",  "teu", "tua",   "teus", "tuas"],
 									["se", "o", "a", "lhe", "si", "consigo"],
 									["nos", "conosco",  "nosso", "nossos", "nossa", "nossas"],
 									["vos", "convosco",  "vossa", "vosso", "vossos", "vossas"],
@@ -278,7 +278,7 @@ let verboser=["sou","era","fui",
 		
 		let verboter = ["tenho", "tens", "tem", "temos", "tendes", "têm",
 									"tenha", "tenhas", "tenha", "tenhamos", "tenhais", "tenham",
-									"tem", "tu", "tenha", "tenhamos", "tende", "tenham",
+									"tem", "tenha", "tenhamos", "tende", "tenham",
 									"tenhas", "tenha","tenhamos", "tenhais", "tenham",
 									"tive", "tiveste", "teve", "tivemos", "tivestes", "tiveram",
 									"tivera", "tiveras", "tivera", "tivéramos", "tivéreis", "tiveram",
